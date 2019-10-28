@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100%;
+  padding: 20px;
+  background-color: #caca5c;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  height: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+p:hover {
+  color: blue;
+  font-size: 20px;
+}
+
+.handle-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+button {
+  height: 20px;
+}
+
+select {
+  height: 20px;
+  margin: 20px;
+}
+
+.images {
+  width: 50%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}

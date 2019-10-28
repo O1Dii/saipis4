@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: block;
+    overflow: hidden;
+
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 20px;
+
+    background-color: rgb(202, 202, 92);
+
+    align-items: center;
+}
+
+p {
+    height: 50px;
+    margin: 0;
+
+    text-align: center;
+
+    &:hover {
+        color: blue;
+
+        font-size: 20px;
+    }
+}
+
+.handle-elements {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    height: 20px;
+}
+
+select {
+    height: 20px;
+    margin: 20px;
+}
+
+.images {
+    width: 50%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
